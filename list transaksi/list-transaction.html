@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Transaksi</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Transaksi</h1>
+        <div class="info-box">
+            <i class="fas fa-info-circle"></i>
+            <p>Info Seputar Belanja<br>
+                Keterlambatan pengiriman tujuan dan asal Kota Makassar & Kabupaten Bondowoso 
+                <a href="#">Info Selengkapnya</a>
+            </p>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Cari transaksimu di sini">
+            <select>
+                <option value="">Semua Produk</option>
+                </select>
+            <button><i class="fas fa-calendar-alt"></i> Pilih Tanggal Transaksi</button>
+        </div>
+
+        <div class="filter">
+            <button class="active">Semua</button>
+            <button>Berlangsung</button>
+            <button>Berhasil</button>
+            <button>Tidak Berhasil</button>
+            <button>E-tiket & E-voucher Aktif</button>
+            <button class="reset">Reset Filter</button>
+        </div>
+
+        <div class="transaction-list">
+            <div class="transaction">
+                <div class="transaction-header">
+                    <i class="fas fa-shopping-bag"></i>
+                    <div>
+                        <p>Belanja <span>10 Feb 2023</span></p>
+                        <span class="status selesai">Selesai</span>
+                    </div>
+                    <p class="invoice">INV/20230210/MPL/3038611559</p>
+                </div>
+                <div class="transaction-details">
+                    <img src="assets/MH01.jpeg" alt="Product Image">
+                    <div>
+                        <p class="shop-name">emi<span class="pro">PRO</span>lab</p>
+                        <p class="product-name">Microhoo Air Cooler MH02 MH01 Air Conditioner Mini AC Portable - MH...</p>
+                        <p class="quantity">1 barang x Rp429.000</p>
+                    </div>
+                    <div class="total-price">
+                        <p>Total Belanja</p>
+                        <p>Rp 431.300</p>
+                    </div>
+                </div>
+                <div class="transaction-actions">
+                    <button class="details">Lihat Detail Transaksi</button>
+                    <button class="buy-again">Beli Lagi</button>
+                    <button class="more"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

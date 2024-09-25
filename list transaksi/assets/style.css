@@ -1,0 +1,260 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Info Box */
+.info-box {
+    background-color: #e0f7fa;
+    border-left: 5px solid #00bcd4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.info-box i {
+    color: #00bcd4;
+ font-size: 24px;
+    margin-right: 10px;
+}
+
+.info-box p {
+    margin-bottom: 0;
+}
+
+.info-box a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0097a7;
+}
+
+.search-bar button i {
+    margin-right: 10px;
+}
+
+/* Filter */
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter button.active {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.filter button:hover {
+    background-color: #f0f0f0;
+}
+
+.filter button.reset {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.filter button.reset:hover {
+    background-color: #ff69b4;
+}
+
+/* Transaction List */
+.transaction-list {
+    margin-bottom: 20px;
+}
+
+.transaction {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.transaction-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.transaction-header i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.transaction-header p {
+    margin-bottom: 0;
+}
+
+.transaction-header span {
+    font-size: 14px;
+    color: #999;
+}
+
+.transaction-header .status {
+    font-size: 14px;
+    color: #00bcd4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.transaction-header .status.selesai {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.transaction-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.transaction-details img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.transaction-details .shop-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.transaction-details .product-name {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.transaction-details .quantity {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.transaction-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.transaction-actions button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-actions button:hover {
+    background-color: #f0f0f0;
+}
+
+.transaction-actions button.details {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.transaction-actions button.details:hover {
+    background-color: #0097a7;
+}
+
+.transaction-actions button.buy-again {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.transaction-actions button.buy-again:hover {
+    background-color: #ff69b4;
+}
+
+.transaction-actions button.more {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-actions button.more:hover {
+    background-color: #f0f0f0;
+}
+
+.transaction-actions button.more i {
+    font-size: 24px;
+}
+.text-right {
+  text-align: right;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.product-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
